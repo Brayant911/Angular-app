@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  title= 'Note Taking Application'; 
+  title= 'Picture-Sorter-Application'; 
   today: Date;
    constructor() {
     this.today= new Date(); 
